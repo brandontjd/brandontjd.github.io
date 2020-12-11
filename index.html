@@ -1,379 +1,190 @@
-<!DOCTYPE HTML>
-<!--
-	Dimension by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>Brandon Tan</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+  <head>
+    <title>Brandon Tan</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript
+      ><link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
+  </head>
+  <body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Header -->
+      <header id="header">
+        <div class="inner">
+          <!-- Logo -->
+          <div href="index.html" class="logo">
+            <span class="symbol"
+              ><img src="images/innovation.svg" alt="" /></span
+            ><span class="title"></span>
+              Team PLayer • Data Driven • Stress Resistant</span
+            >
+          </div>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+          <!-- Nav -->
+          <nav>
+            <ul>
+              <li><a href="#menu">Menu</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
 
-				<!-- Header -->
-					<header id="header">
-						<!-- <div class="logo">
-							<span class="icon fa-gem"></span>
-						</div> -->
-						<div class="content">
-							<div class="inner">
-								<h1>Brandon's Portfolio</h1>
-								<p>A place where I list my projects that I've done over the years.<br>
-								 Feel free to check them out, give me feedback, or clone the repos.</br></p>
-							</div>
-						</div>
-						<nav>
-							<ul>
-								<li><a href="#intro">Intro</a></li>
-								<li><a href="#work">Work</a></li>
-								<li><a href="#about">About</a></li>
-								<li><a href="#contact">Contact</a></li>
-								<!-- <li><a href="#elements">Elements</a></li> -->
-							</ul>
-						</nav>
-					</header>
+      <!-- Menu -->
+      <nav id="menu">
+        <h2>Menu</h2>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Me</a></li>
+        </ul>
+      </nav>
 
-				<!-- Main -->
-					<div id="main">
+      <!-- Main -->
+      <div id="main">
+        <div class="inner">
+          <header>
+            <h1>Brandon Tan's Portfolio</h1>
+            <p>
+              Hey there! Thanks for taking the time to look at my work. My
+              individual and group projects are marked with (S) and (G)
+              respectively. I hope you find them interesting in one way or
+              another. If you have any questions or feedback, I can always be
+              reached at GitHub, LinkedIn or - brandontan.2019@smu.edu.sg.
+            </p>
+            <p>Cheers 🍻 and have a great day ahead.</p>
+          </header>
+          <section class="tiles">
+            <article class="style6">
+              <span class="image">
+                <img src="images/hdb.png" alt="" />
+              </span>
+              <a
+                href="https://github.com/brandontjd/hdb-resale-price"
+                target="_blank"
+              >
+                <h2>HDB Resale Flat Predictor (S)</h2>
+                <div class="content">
+                  <p>
+                    I explore how HDB resale flats are priced and examine if
+                    property agents have mispricing in their listings
+                  </p>
+                </div>
+              </a>
+            </article>
+            <article class="style6">
+              <span class="image">
+                <img src="images/pead.png" alt="" />
+              </span>
+              <a
+                href="https://github.com/brandontjd/pead-accrual"
+                target="_blank"
+              >
+                <h2>Post Earnings Drift & Accrual Anomaly (S)</h2>
+                <div class="content">
+                  <p>
+                    Following the seminar work of Balakrishnan and Sloan, I
+                    explore if these anomalies still exist today
+                  </p>
+                </div>
+              </a>
+            </article>
+            <article class="style6">
+              <span class="image">
+                <img src="images/laca.png" alt="" />
+              </span>
+              <a
+                href="https://github.com/brandontjd/eigen-decomposition"
+                target="_blank"
+              >
+                <h2>Eigenvectors & Portfolio Optimization (S)</h2>
+                <div class="content">
+                  <p>Applications of Linear Algebra onto Financial Data</p>
+                </div>
+              </a>
+            </article>
+            <article class="style6">
+              <span class="image">
+                <img src="images/money.png" alt="" />
+              </span>
+              <a href="https://github.com/brandontjd/SMU-QF" target="_blank">
+                <h2>SMU Quantitative Finance (S)</h2>
+                <div class="content">
+                  <p>
+                    A repository where I codify the math taught in SMU QF
+                    modules
+                  </p>
+                </div>
+              </a>
+            </article>
+            <article class="style6">
+              <span class="image">
+                <img src="images/nba.png" alt="" />
+              </span>
+              <a href="#">
+                <!-- NEED TO HAVE BLANK HERE FOR FUTURE REF-->
+                <h2>Sportnalytics (G)</h2>
+                <div class="content">
+                  <p>
+                    Building a model to predict NBA game outcomes and seedings.
+                    A work in progress.
+                  </p>
+                </div>
+              </a>
+            </article>
+            <article class="style6">
+              <span class="image">
+                <img src="images/tinder.png" alt="" />
+              </span>
+              <a href="ghostmenot.html" target="_blank">
+                <h2>Ghost Me Not (G)</h2>
+                <div class="content">
+                  <p>
+                    The team re-conceptualised how Tinder could be improved and
+                    built a clone - using ReactJS, Flask and SQLAlchemy. This
+                    was for an SMU module, IS216, garnering an A+.
+                  </p>
+                </div>
+              </a>
+            </article>
+          </section>
+        </div>
+      </div>
 
-						<!-- Intro -->
-							<article id="intro">
-								<h2 class="major">Intro</h2>
-								<span class="image main"><img src="images/profilepic.jpg" alt="" /></span>
-								<p>I'm a Year 2 student at Singapore Management University, pursuing a double degree in Business Management and Information Systems. My specialisations are in Quantitative Finance and Business Analytics.</p>
-								<p>I've had the opportunity to intern at fast growing consumer internet companies such as Foodpanda and Klook. There, I've gained insights into the applications of Machine Learning to boost profit margins and spearheaded successful projects myself. Now, I've decided to pursue a career in Quantitative Finance, specifically in applying Machine Learning techniques to manage risk and uncover alpha factors.</p>
-								<p>"Backtesting can never be a true positive, it can only flag out false positives." - Marcos Lopez.</p>
-								<p>All too often, financial research papers have been perverted by p-hacking and false backtesting. Hence, on this journey that I'm on, I'm determined to use Machine Learning responsibly. It will not only be used to generate alpha but also as a tool to uncover financial theorems that can provide a true positive, one that is not backed solely by backtesting.</p>
-							</article>
+      <!-- Footer -->
+      <footer id="footer">
+        <div class="inner">
+          <section>
+            <h2>
+              Contact &nbsp;
+              <a
+                href="https://www.linkedin.com/in/brandon-tan-jun-da/"
+                class="icon brands style2 fa-linkedin"
+                target="_blank"
+                ><span class="label">LinkedIn</span></a
+              >
+              <a
+                href="https://github.com/brandontjd?tab=repositories&q=&type=public&language="
+                class="icon brands style2 fa-github"
+                target="_blank"
+                ><span class="label">GitHub</span></a
+              >
+            </h2>
+          </section>
+        </div>
+      </footer>
+    </div>
 
-						<!-- Work -->
-							<article id="work">
-								<h2 class="major">Work</h2>
-								<span class="image main"><img src="images/work.jpg" alt="" /></span>
-								<p>My first project involved investigating the presence of the "Post Earnings Announcement Drift" and "Accrual" anomalies in the financial markets. Concretely, I found a viable trading strategy that garnered 37% returns over the course of 3 years (notably, S&P500 still performs better!). My work can be found <a href="https://github.com/brandontjd/pead-accrual">here</a>. </p>
-								<p>My second project utilised the development of eigen-portfolios to decompose a basket of stocks (in my case the Dow Jones Index) into their underlying factors and trading on the best performing factor. The results found that one could significantly out perform the DJI by simply adjusting the weights of each stock and having an appropriate stop loss in place. The findings can be found <a href='https://github.com/brandontjd/eigen-decomposition'>here</a>.</p>
-								<p>In previous internships, I've also completed key projects that raised our profit margins significantly.
-									<ol>
-										<li>Utilising clustering algorithms to segment customer groups to conduct A/B testing</li>
-										<li>Scraping competitor inventories and reviews to understand what consumers want</li>
-										<li>Natural Language Model to map competitor products to our own products</li>
-										<li>Set up foodpanda's catering business by finding and negotitating with vendors (non-coding)</li>
-									</ol>
-								For the relevant works, due to past employment agreements, I will not be able to disclose the code.
-								</p>
-
-								<p>Upcoming works in the pipeline:
-									<ol>
-										<li>A hierarchical approach to predicting HDB resale flat prices</li>
-										<li>The applications of Marchenko-Pastur, as follow up from eigen-decomposition</li>
-										<li>Can spotify predict stock prices?</li>
-									</ol>
-									Check back again in a few weeks! 😊
-								</p>
-
-								(The above is a picture of my desk after a long day of working from home haha.)
-							</article>
-
-						<!-- About -->
-							<article id="about">
-								<h2 class="major">About</h2>
-								<span class="image main"><img src="images/band.jpg" alt="" /></span>
-								<p>Asides from my work, I play the electric/bass guitar too! I'm a huge fan of John Mayer and the legendary blues artists that came before him. I used to play in a band back in Junior College. Those were good times.</p>
-								<p>I'm also enthusiastic about football, but not in the traditional sense! Instead, I'm interested in the strategies and statistics applied by teams. In this era, an interesting finding would be how Jurgen Klopp's Liverpool's pressing style actually mimicks how a jellyfish approaches its target. I'm always down for a good conversation about strategy.</p>
-								<p>I also write (sometimes) at https://medium.com/@brandontanjunda.</p>
-							</article>
-
-						<!-- Contact -->
-							<article id="contact">
-								<h2 class="major">Contact</h2>
-									<div class="fields">
-										<div class="field half">
-											<label for="name">Email</label>
-											brandontan.2019@business.smu.edu.sg
-										</div>
-										<br>
-										<div class="field half">
-											<label for="name">LinkedIn</label>
-											https://www.linkedin.com/in/brandon-tan-jun-da/
-											
-										</div>
-										<br>
-										<div class="field">
-											<label for="name">Github</label>
-											https://github.com/brandontjd
-										</div>
-										<br>
-									</div>
-									
-							</article>
-
-						<!-- Elements -->
-							<article id="elements">
-								<h2 class="major">Elements</h2>
-
-								<section>
-									<h3 class="major">Text</h3>
-									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
-									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-									This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
-									<hr />
-									<h2>Heading Level 2</h2>
-									<h3>Heading Level 3</h3>
-									<h4>Heading Level 4</h4>
-									<h5>Heading Level 5</h5>
-									<h6>Heading Level 6</h6>
-									<hr />
-									<h4>Blockquote</h4>
-									<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
-									<h4>Preformatted</h4>
-									<pre><code>i = 0;
-
-while (!deck.isInOrder()) {
-    print 'Iteration ' + i;
-    deck.shuffle();
-    i++;
-}
-
-print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
-								</section>
-
-								<section>
-									<h3 class="major">Lists</h3>
-
-									<h4>Unordered</h4>
-									<ul>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Sagittis adipiscing.</li>
-										<li>Felis enim feugiat.</li>
-									</ul>
-
-									<h4>Alternate</h4>
-									<ul class="alt">
-										<li>Dolor pulvinar etiam.</li>
-										<li>Sagittis adipiscing.</li>
-										<li>Felis enim feugiat.</li>
-									</ul>
-
-									<h4>Ordered</h4>
-									<ol>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Etiam vel felis viverra.</li>
-										<li>Felis enim feugiat.</li>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Etiam vel felis lorem.</li>
-										<li>Felis enim et feugiat.</li>
-									</ol>
-									<h4>Icons</h4>
-									<ul class="icons">
-										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-									</ul>
-
-									<h4>Actions</h4>
-									<ul class="actions">
-										<li><a href="#" class="button primary">Default</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-									<ul class="actions stacked">
-										<li><a href="#" class="button primary">Default</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-								</section>
-
-								<section>
-									<h3 class="major">Table</h3>
-									<h4>Default</h4>
-									<div class="table-wrapper">
-										<table>
-											<thead>
-												<tr>
-													<th>Name</th>
-													<th>Description</th>
-													<th>Price</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>Item One</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Two</td>
-													<td>Vis ac commodo adipiscing arcu aliquet.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Three</td>
-													<td> Morbi faucibus arcu accumsan lorem.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Four</td>
-													<td>Vitae integer tempus condimentum.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Five</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-											</tbody>
-											<tfoot>
-												<tr>
-													<td colspan="2"></td>
-													<td>100.00</td>
-												</tr>
-											</tfoot>
-										</table>
-									</div>
-
-									<h4>Alternate</h4>
-									<div class="table-wrapper">
-										<table class="alt">
-											<thead>
-												<tr>
-													<th>Name</th>
-													<th>Description</th>
-													<th>Price</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>Item One</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Two</td>
-													<td>Vis ac commodo adipiscing arcu aliquet.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Three</td>
-													<td> Morbi faucibus arcu accumsan lorem.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Four</td>
-													<td>Vitae integer tempus condimentum.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Five</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-											</tbody>
-											<tfoot>
-												<tr>
-													<td colspan="2"></td>
-													<td>100.00</td>
-												</tr>
-											</tfoot>
-										</table>
-									</div>
-								</section>
-
-								<section>
-									<h3 class="major">Buttons</h3>
-									<ul class="actions">
-										<li><a href="#" class="button primary">Primary</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-									<ul class="actions">
-										<li><a href="#" class="button">Default</a></li>
-										<li><a href="#" class="button small">Small</a></li>
-									</ul>
-									<ul class="actions">
-										<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
-										<li><a href="#" class="button icon solid fa-download">Icon</a></li>
-									</ul>
-									<ul class="actions">
-										<li><span class="button primary disabled">Disabled</span></li>
-										<li><span class="button disabled">Disabled</span></li>
-									</ul>
-								</section>
-
-								<section>
-									<h3 class="major">Form</h3>
-									<form method="post" action="#">
-										<div class="fields">
-											<div class="field half">
-												<label for="demo-name">Name</label>
-												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
-											</div>
-											<div class="field half">
-												<label for="demo-email">Email</label>
-												<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
-											</div>
-											<div class="field">
-												<label for="demo-category">Category</label>
-												<select name="demo-category" id="demo-category">
-													<option value="">-</option>
-													<option value="1">Manufacturing</option>
-													<option value="1">Shipping</option>
-													<option value="1">Administration</option>
-													<option value="1">Human Resources</option>
-												</select>
-											</div>
-											<div class="field half">
-												<input type="radio" id="demo-priority-low" name="demo-priority" checked>
-												<label for="demo-priority-low">Low</label>
-											</div>
-											<div class="field half">
-												<input type="radio" id="demo-priority-high" name="demo-priority">
-												<label for="demo-priority-high">High</label>
-											</div>
-											<div class="field half">
-												<input type="checkbox" id="demo-copy" name="demo-copy">
-												<label for="demo-copy">Email me a copy</label>
-											</div>
-											<div class="field half">
-												<input type="checkbox" id="demo-human" name="demo-human" checked>
-												<label for="demo-human">Not a robot</label>
-											</div>
-											<div class="field">
-												<label for="demo-message">Message</label>
-												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
-											</div>
-										</div>
-										<ul class="actions">
-											<li><input type="submit" value="Send Message" class="primary" /></li>
-											<li><input type="reset" value="Reset" /></li>
-										</ul>
-									</form>
-								</section>
-
-							</article>
-
-					</div>
-
-				<!-- Footer -->
-					<footer id="footer">
-						<p class="copyright">"Quod Erat Demonstrandum"</p>
-					</footer>
-
-			</div>
-
-		<!-- BG -->
-			<div id="bg"></div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
